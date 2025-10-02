@@ -40,3 +40,36 @@ body {
 .list li {
     margin: 0.5em 0;
 }
+
+a:link {
+  color: #E29AB1;
+}
+
+a:visited {
+  color: #E29AB1;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: maroon;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+::selection {
+  color: #181818;
+  background: white;
+}
+
+code {
+    color: white;
+}
