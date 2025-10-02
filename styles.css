@@ -42,32 +42,33 @@ body {
 }
 
 a:link {
-  color: #E29AB1;
+    color: #E29AB1;
 }
 
 a:visited {
-  color: #E29AB1;
+    color: #E29AB1;
 }
 
 a:hover {
-  color: white;
+    color: white;
 }
 
 a:active {
-  color: maroon;
+    color: maroon;
 }
 
-a:link, a:visited {
-  text-decoration: none;
+a:link,
+a:visited {
+    text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 ::selection {
-  color: #181818;
-  background: white;
+    color: #181818;
+    background: white;
 }
 
 code {
